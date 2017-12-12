@@ -1,0 +1,72 @@
+/* Global animations */
+
+@-webkit-keyframes slideDown {
+    from { 
+        -webkit-transform: translateY(-300px); 
+                transform: translateY(-300px);
+        opacity: 0;
+    }
+    to { 
+        -webkit-transform: translateY(0); 
+                transform: translateY(0);
+        opacity: 1; 
+    }
+}
+
+@keyframes slideDown {
+    from { 
+        -webkit-transform: translateY(-300px); 
+                transform: translateY(-300px);
+        opacity: 0;
+    }
+    to { 
+        -webkit-transform: translateY(0); 
+                transform: translateY(0);
+        opacity: 1; 
+    }
+}
+
+@-webkit-keyframes slideUp {
+    from { 
+        -webkit-transform: translateY(800px); 
+                transform: translateY(800px);
+        opacity: 0;
+    }
+    to { 
+        -webkit-transform: translateY(0); 
+                transform: translateY(0);
+        opacity: 1; 
+    }
+}
+
+@keyframes slideUp {
+    from { 
+        -webkit-transform: translateY(800px); 
+                transform: translateY(800px);
+        opacity: 0;
+    }
+    to { 
+        -webkit-transform: translateY(0); 
+                transform: translateY(0);
+        opacity: 1; 
+    }
+}
+
+/* Load animation */
+
+.header--logo {
+    -webkit-animation: slideDown 1s both;
+            animation: slideDown 1s both;
+}
+
+.featured {
+    -webkit-animation: slideUp 1s both;
+            animation: slideUp 1s both;
+}
+
+/* Button animation */
+
+.btn-light {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}

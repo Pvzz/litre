@@ -1,0 +1,39 @@
+/* Global animations */
+
+@keyframes slideDown {
+    from { 
+        transform: translateY(-300px);
+        opacity: 0;
+    }
+    to { 
+        transform: translateY(0);
+        opacity: 1; 
+    }
+}
+
+@keyframes slideUp {
+    from { 
+        transform: translateY(800px);
+        opacity: 0;
+    }
+    to { 
+        transform: translateY(0);
+        opacity: 1; 
+    }
+}
+
+/* Load animation */
+
+.header--logo {
+    animation: slideDown 1s both;
+}
+
+.featured {
+    animation: slideUp 1s both;
+}
+
+/* Button animation */
+
+.btn-light {
+    transition: all 0.5s;
+}
