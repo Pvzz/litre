@@ -1,0 +1,12 @@
+.navbar {
+    box-shadow: 0 0 4px #666;
+}
+
+.navbar-logo {
+    background-image: url(../images/logo/1_Primary_logo_on_transparent_261x67.png);
+    background-size: 100% 100%;
+    width: 180px;
+    height: 50px;
+    margin: 20px 0;
+    text-indent: -9999px;
+}
