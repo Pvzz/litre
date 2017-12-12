@@ -1,0 +1,33 @@
+{
+  "name": "litre",
+  "version": "1.0.0",
+  "description": "work race game",
+  "main": "index.js",
+  "dependencies": {
+    "gulp-uglify": "^3.0.0",
+    "package.json": "^2.0.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-imagemin": "^4.0.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-refresh": "^1.1.0",
+    "livereload": "^0.6.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pvzz/litre.git"
+  },
+  "author": "Paulo Barreto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pvzz/litre/issues"
+  },
+  "homepage": "https://github.com/Pvzz/litre#readme"
+}
