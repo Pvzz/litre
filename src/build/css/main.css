@@ -11,3 +11,13 @@
     margin: 20px 0;
     text-indent: -9999px;
 }
+
+.featured {
+    background-color: #ccc;
+    height: 400px;
+    margin: 40px auto;
+}
+
+.featured-logo {
+    height: 150px;
+}
